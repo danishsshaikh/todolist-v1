@@ -7,7 +7,8 @@ app.set('view engine', 'ejs');
 
 
 app.get("/", function(req, res){
-	res.send("HELLO?");
+	//res.send("HELLO?");
+	res.render("list");
 });
 
 app.listen(3000, function(){
